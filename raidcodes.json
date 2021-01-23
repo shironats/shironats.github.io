@@ -7,7 +7,7 @@
     "713100":["16759629",   "<@&731860586031218719> Luminiera HL",      "https://gbf.wiki/images/7/74/BattleRaid_Luminiera_Impossible.png"],
     "826100":["8388863",    "<@&731860586031218719> Celeste HL",        "https://gbf.wiki/images/a/ab/BattleRaid_Celeste_Impossible.png"],
     "356120":["16711680",   "<@&687488007133200482>",                   "https://gbf.wiki/images/7/73/BattleRaid_Shiva_Impossible.png"],
-    "356130":["8900331",    "<@&687486358247440414>",                   "https://gbf.wiki/images/thumb/0/0d/Europa_twitter.jpg/600px-Europa_twitter.jpg"],
+    "356130":["8900331",    "<@&687486358247440414>",                   "https://gbf.wiki/images/6/6d/BattleRaid_Europa_Impossible.png"],
     "356140":["12542525",   "<@&687485456195125350>",                   "https://gbf.wiki/images/c/cd/BattleRaid_Godsworn_Alexiel_Impossible.png"],
     "356150":["65280",      "<@&687488066361098277>",                   "https://gbf.wiki/images/0/00/BattleRaid_Grimnir_Impossible.png"],
     "356160":["16759629",   "<@&687488204135202860>",                   "https://gbf.wiki/images/0/07/BattleRaid_Metatron_Impossible.png"],
@@ -58,7 +58,6 @@
     "6059010":["16759629",  "<@&741638935003922534>",                   "https://gbf.wiki/images/c/c7/BattleRaid_Lindwurm_Impossible.png"],
     "6051510":["16759629",  "Akasha",                                   "https://gbf.wiki/images/5/5e/BattleRaid_Akasha_Impossible.png"],
     "6053600":["16759629",  "Lucilius",                                 "https://gbf.wiki/images/8/8d/BattleRaid_Lucilius_Impossible.png"],
-    "6067503":["8388863",  "T-Rex NM150",                                    "https://gbf.wiki/images/4/40/BattleRaid_Tyrannosaurus_Nightmare_150.png"],
     "classes":[{
         "100001":["fighter",      "https://gbf.wiki/images/thumb/4/47/Class_100001_sw_icon.png/30px-Class_100001_sw_icon.png"],
         "110001":["knight",       "https://gbf.wiki/images/thumb/7/73/Class_110001_sw_icon.png/30px-Class_110001_sw_icon.png"],

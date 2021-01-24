@@ -62,7 +62,7 @@
     "6059010":["16759629",  "<@&741638935003922534>",                   "https://gbf.wiki/images/c/c7/BattleRaid_Lindwurm_Impossible.png"],
     "6051510":["16777215",  "Akasha",                                   "https://gbf.wiki/images/5/5e/BattleRaid_Akasha_Impossible.png"],
     "6053600":["16777215",  "Lucilius",                                 "https://gbf.wiki/images/8/8d/BattleRaid_Lucilius_Impossible.png"],
-    "classes":[{
+    "classes":{
         "100001":["fighter",      "https://gbf.wiki/images/thumb/4/47/Class_100001_sw_icon.png/30px-Class_100001_sw_icon.png"],
         "110001":["knight",       "https://gbf.wiki/images/thumb/7/73/Class_110001_sw_icon.png/30px-Class_110001_sw_icon.png"],
         "120001":["priest",       "https://gbf.wiki/images/thumb/f/f2/Class_120001_wa_icon.png/30px-Class_120001_wa_icon.png"],
@@ -127,5 +127,5 @@
         "250301":["nekomancer",   "https://gbf.wiki/images/thumb/3/34/Class_250301_wa_icon.png/30px-Class_250301_wa_icon.png"],
         "260301":["tormentor",    "https://gbf.wiki/images/thumb/d/d5/Class_260301_kn_icon.png/30px-Class_260301_kn_icon.png"],
         "270301":["risingforce",  "https://gbf.wiki/images/thumb/3/38/Class_270301_mc_icon.png/30px-Class_270301_mc_icon.png"]
-    }]
+    }
 }

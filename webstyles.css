@@ -1,0 +1,67 @@
+body {
+    background-color:rgb(65, 65, 65);
+    color: rgb(225, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 5px;
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    background-color: #4fa097;
+}
+
+tr:nth-child(even) {
+    background-color: #7fd684;
+}
+  
+tr:nth-child(odd) {
+    background-color: #a1cfa3;
+}  
+
+button.Discord {
+    position: absolute;
+    outline:none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 30px 10px 30px 90px;
+    text-align: left;
+    font-size: 18px;
+    background: url(https://discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png);
+    background-size: 25%;
+    background-position-y: 0px;
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-color:rgb(115, 139, 217);
+}
+
+button.Discord:hover {
+    background-color:rgb(103, 122, 192);
+    cursor: pointer;
+}
+
+.Jannubot {
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    width: 500px;
+    height: 138px;
+    border-radius: 15px;
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+
+.Commands {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}

@@ -1,7 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <title>Jannubot</title>
+    <link rel="icon" href="Vyrnball.png">
+    <link rel="stylesheet" type="text/css" href="webstyles.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <button class="Discord" type="button" onclick="window.open('https://discord.com/oauth2/authorize?client_id=731865140068089897&permissions=523328&scope=bot')">
+        Add Jannubot to your server
+    </button>
+
+    <div class="Jannubot">
+        <img style="float:left; margin-left:5px; margin-top:5px;" src="top_img.png" alt="Jannubot Picture" width="128">
+        <div style="float:left; margin-left:25px;">
+            <h1 style="font-size:50px; margin-top:25px; margin-left: 25px;">Jannubot</h1>
+            <h4 style="margin-top:-25px;">Discord bot made by DeathAngel#0963</h4>
+        </div>
+    </div>
+
+    <div class="Commands">
+        <h1 style="font-size:40px;">
+            Commands
+            <hr>
+        </h1>
+        
+        <h2>Public Use</h2>
+        <table style="width:100%; margin-top:-10px; color: black;">
+            <thead>
+                <tr>
+                    <th style="width:10%;">Command</th>
+                    <th style="width:55%;">Description</th>
+                    <th style="width:20%;">Examples</th>
+                    <th style="width:15%;">Shortcuts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>}help [command]</td>
+                    <td>Sends a message explaining the Jannubot command.
+                        <br>
+                        Using <b>}help</b> will list all Jannubot commands.
+                    </td>
+                    <td>}help<br>}help down</td>
+                    <td>}h</td>
+                </tr>
+                <tr>
+                    <td>}up</td>
+                    <td>Sends a random 'buff is up' image.</td>
+                    <td>}up</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}checkImages</td>
+                    <td>Sends all the images stored.</td>
+                    <td>}checkImages</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}truck [user]</td>
+                    <td>Sends a truck after a user.</td>
+                    <td>}truck @DeathAngel#0963</td>
+                    <td>}isekai</td>
+                </tr>
+                <tr>
+                    <td>}bonk [user] [reason]</td>
+                    <td>Bonks a user
+                        <br>
+                        [reason] is an optional parameter.
+                    </td>
+                    <td>}bonk @DeathAngel#0963<br>}bonk @DeathAngel#0963 "being naughty"</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}evade</td>
+                    <td>Rolls for evasion.</td>
+                    <td>}evade</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}pat [user]</td>
+                    <td>Pats a user.</td>
+                    <td>}pat @DeathAngel#0963</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}F [user]</td>
+                    <td>Press F to pay respects.</td>
+                    <td>}F @DeathAngel#0963</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}votestart [user]</td>
+                    <td>Vote to YEET a user.</td>
+                    <td>}votestart @DeathAngel#0963</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}yeet [something]</td>
+                    <td>Just YEET it.</td>
+                    <td>}yeet @DeathAngel#0963
+                        <br>
+                        }yeet timber
+                        <br>
+                        }yeet "your ass"
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}emote [emote name]</td>
+                    <td>Sends an animated emote from your server's emotes list.</td>
+                    <td>}emote :run:
+                        <br>
+                        }emote :rampubob:
+                    </td>
+                    <td>}emo<br>}emotes</td>
+                </tr>
+                <tr>
+                    <td>}baka [user]</td>
+                    <td>Kiryu is sad for a user.</td>
+                    <td>}baka @DeathAngel#0963</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}UStime [time]</td>
+                    <td>Converts given JST time to HST, PST, MST, CST and EST.
+                        <br>
+                        Using <b>}UStime</b> will return the current times.
+                    </td>
+                    <td>}UStime
+                        <br>
+                        }UStime 2359
+                        <br>
+                        }UStime 0500
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Jannupals-exclusive</h2>
+        <table style="width:100%; margin-top:-10px; color: black;">
+            <thead>
+                <tr>
+                    <th style="width:10%;">Command</th>
+                    <th style="width:55%;">Description</th>
+                    <th style="width:20%;">Examples</th>
+                    <th style="width:15%;">Shortcuts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>}down</td>
+                    <td>Spams random 'Buff is down' images.</td>
+                    <td>}down</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}bonkcounter [user]</td>
+                    <td>Shows a user's bonk stats.
+                        <br>
+                        Using <b>}bonkcounter</b> will show your own stats.
+                    </td>
+                    <td>}bonkcounter<br>}bonkcounter @DeathAngel#0963</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}bday</td>
+                    <td>Displays recorded member birthdays.</td>
+                    <td>}bday</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}birthday [date] [month]</td>
+                    <td>Sends your birthday to the database.
+                        <br>
+                        <b>Currently suspended.</b>
+                    </td>
+                    <td>}birthday 14 02</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>}queue [name]</td>
+                    <td>Adds an entry to the raid host queue.
+                        <br>
+                        Using <b>}queue</b> will show the current queue.
+                    </td>
+                    <td>}queue
+                        <br>
+                        }queue "metatron"
+                    </td>
+                    <td>}q</td>
+                </tr>
+                <tr>
+                    <td>}next</td>
+                    <td>Moves the raid queue to the next number.</td>
+                    <td>}next</td>
+                    <td>}n</td>
+                </tr>
+                <tr>
+                    <td>}remove [number]</td>
+                    <td>Removes selected entry from the raid queue.</td>
+                    <td>}remove 1</td>
+                    <td>}r</td>
+                </tr>
+                <tr>
+                    <td>}clearqueue</td>
+                    <td>Clears the raid queue.</td>
+                    <td>}clearqueue</td>
+                    <td>}c</td>
+                </tr>
+                <tr>
+                    <td>}cleaning</td>
+                    <td>Sends 5 messages with all static server emotes as reactions.</td>
+                    <td>}cleaning</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="Keywords">
+        
+    </div>
+
+    <!--
+        <h2>My Second Heading</h1>
+        <p style="background-color:tomato;">My first paragraph.</p>
+        <hr>
+
+        <p title="I'm a tooltip">This is a paragraph with a tooltip.</p>
+        <img src="https://www.w3schools.com/html/img_girl.jpg" alt="W3Schools.com" width="104" height="142">
+        <a href="https://www.w3schools.com"><br>This is a link</a>
+        <hr>
+
+        <pre>
+            My Bonnie lies over the ocean.
+        
+            My Bonnie lies over the sea.
+        
+            My Bonnie lies over the ocean.
+        
+            Oh, bring back my Bonnie to me.
+        </pre>
+    -->
 </body>
 </html>
